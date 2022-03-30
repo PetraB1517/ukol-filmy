@@ -6,11 +6,6 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(92, 114, 155);
 }
 
-.logo {
-  display: inline-block;
-  width: auto;
-  height: 1em;
-  margin-right: 0.3em;
-}

@@ -1,0 +1,81 @@
+.movie {
+	border: 3px solid #283033;
+	display: flex;
+	flex-direction: row;
+	max-width: 530px;
+	min-height: 200px;
+	aspect-ratio: 1.6;
+	box-shadow: 15px 18px 20px 0px rgb(53 54 74);
+}
+
+.movie__image {
+	display: block;
+	width: 35%;
+	padding: 10px;
+	padding-bottom: 30px;
+	object-fit:contain;
+	background-color: #a52e2e;
+}
+
+.movie__content {
+	flex: 1;
+	padding: 15px;
+	background: #c9c9c9;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.movie__title {
+	margin: 15px 0 15px 0;
+	font-weight: bold;
+	font-size: 20px;
+	color: #a52e2e;
+	display: inline;
+	flex-basis: 100%;
+}
+
+.movie__director{
+	font-size: 15px;
+	font-weight: bold;
+	display: inline;
+	margin: 0;
+	margin-bottom: 10px;
+
+}
+
+.movie__info{
+	font-size: 12px;
+	font-style: italic;
+	flex-basis: 75%;
+	margin: 0;
+}
+
+.movie__rating{
+	font-size: 17px;
+	flex-basis: 25%;
+	color:#a52e2e;
+	margin: 0;
+}
+
+.movie__cast{
+	flex-basis: 100%;
+	height: 55%;
+}
+
+.movie__roles {
+	font-size: 15px;
+	margin: 0 0 10px 20px;
+	
+}
+
+.rolesList {
+	display: flex;
+	padding: 0;
+	padding: 0 10px 0 0px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 5px;
+}
